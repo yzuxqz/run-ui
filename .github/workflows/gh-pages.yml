@@ -35,7 +35,7 @@ jobs:
           git config --global user.email "1336352883@qq.com"
           git clone https://${GH_REF} .deploy_git
           cd .deploy_git
-          git checkout gh-pages
+          git checkout -b gh-pages
           cd ../
           mv .deploy_git/.git/ ./docs-dist # 打包之后的文件存放目录docs-dist
           cd ./docs-dist
