@@ -26,7 +26,7 @@ jobs:
       # 发布到 github pages 上
       - name: Auto Deploy
         env:
-          GH_REF: http://github.com/yzuxqz/run-ui.git # github仓库地址http
+          GH_REF: github.com/yzuxqz/run-ui.git # github仓库地址http
           ACCESS_TOKEN: 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 # github token
 #          GITEE_REF: gitee.com/[gitee usename]/仓库名.git  # gitee仓库地址,[gitee usename]替换为自己的gitee用户名
 #          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN}} # gitee 私人令牌
