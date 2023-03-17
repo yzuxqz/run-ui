@@ -42,6 +42,6 @@ jobs:
           git add .
           git commit -m ":construction_worker:CI built at `date +"%Y-%m-%d %H:%M:%S"`"
           # GitHub Pages
-          git push --force --quiet "https://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@${GH_REF}" gh-pages:gh-pages
+          git push --force --quiet "https://yzuxqz:yzuxqz990627@${GH_REF}" gh-pages:gh-pages
           # Gitee Pages
 #          git push --force --quiet "https://[gitee usename]:${GITEE_TOKEN}@${GITEE_REF}" gh-pages:gh-pages
